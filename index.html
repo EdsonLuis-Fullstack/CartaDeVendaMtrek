@@ -1,173 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Lato&display=swap" rel="stylesheet">
-    <title>Carta de vendas mtrek</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Lato&display=swap" rel="stylesheet">
+  <title>Carta de vendas Mtrek</title>
+  <style>
+    @media (min-width: 1024px) {
+      .section-padding {
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .section-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+    }
+    @media (max-width: 767px) {
+      .section-padding {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  </style>
 </head>
-<body>
-    <main>
-        <section class="px-[80px] py-[20px] bg-[url('./images/frame1.png')] bg-cover bg-center w-[100%] flex items-center justify-center flex-col gap-[30px]">
-            <div class="flex items-center content-center flex-col gap-[10px]">
-                <img src="./images/logoBlack1.png" alt="" srcset="" class="h-[78px] w-[258px]">
-                <h1 class="font-Montserrat text-[32px] font-[600] text-center">Como Construir Renda Extra Pela Internet</h1>
-                <p class="font-Poppins text-[18px] font-[400] text-center">
-                    A Mtrek é gratuita: você não paga nada para participar. Ganhe dinheiro comprando o que já consome — direto nas lojas online parceiras. Para manter sua conta ativa e liberar todos os benefícios, basta consumir no mínimo R$ 50,00 em compras a cada período de 30 dias dentro da plataforma.
-                </p>
-            </div>
-            <div class="flex items-center justify-center flex-row gap-[25px] w-[100%]">
-                <div class="flex items-center justify-center border-[5px] border-[#FF8D00] w-[50%] h-[300px]">
-                    <iframe class="w-[100%] h-[100%]" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?si=IKVTpgTAglTxrhbs&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="flex items-center justify-center border-[5px] border-[#FF8D00] w-[50%] h-[300px]">
-                    <iframe class="w-[100%] h-[100%]" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?si=IKVTpgTAglTxrhbs&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="flex items-center justify-center gap-[25px] ">
-                <button class="cursor-pointer bg-[#FF8D00] text-[#fff] px-[25px] py-[10px] rounded-[10px] font-Montserrat font-[700] text-[18px]">
-                    Cadastre-se Agora
-                </button>
-            </div>
-        </section>
-        <section class="px-[80px] py-[20px] bg-[#FCF7EC] w-[100%] flex items-center justify-center flex-col gap-[30px]">
-            <div class="flex items-center content-center flex-col gap-[10px] w-[50%]">
-                <h1 class="font-Montserrat text-[32px] font-[600] text-center">O poder da comunidade!</h1>
-                <p class="font-Poppins text-[18px] font-[400] text-center">
-                    Na Mtrek, cada pessoa é uma peça essencial na construção de algo maior. Juntos, transformamos consumo em renda e criamos uma rede onde todos ganham.
-                </p>
-                <img src="./images/chatgpt1.png" alt="" srcset="" class="h-[510px] w-[510px]">
-                <button class="cursor-pointer bg-[#FF8D00] text-[#fff] px-[25px] py-[10px] rounded-[10px] font-Montserrat font-[700] text-[18px]">
-                    Cadastre-se Agora
-                </button>
-            </div>
-        </section>
-        <section class="px-[80px] py-[20px] w-[100%] h-[100vh] flex items-center justify-center flex-col gap-[30px]">
-            <h1 class="font-Montserrat text-[32px] font-[700] text-center">Depoimentos!</h1>
-            <div class="flex items-center justify-center border-[5px] border-[#FF8D00] w-[60%] h-[400px]">
-                <iframe class="w-[100%] h-[100%]" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?si=IKVTpgTAglTxrhbs&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <button class="cursor-pointer bg-[#FF8D00] text-[#fff] px-[25px] py-[10px] rounded-[10px] font-Montserrat font-[700] text-[18px]">
-                Cadastre-se Agora
-            </button>
-        </section>
-        <section class="px-[80px] py-[20px] w-full flex items-center justify-center flex-col gap-[30px] h-[100vh]">
-            <h1 class="font-Montserrat text-[32px] font-[700] text-center">Lojas Parceiras</h1>
-            <hr class="w-[50%] h-[3px] bg-[#FF8D00] rounded-[10px] border-0">
-            <div class="carousel relative w-full max-w-5xl overflow-hidden">
-              <div class="carousel-track-container overflow-hidden">
-                <ul class="carousel-track flex transition-transform duration-500 ease-in-out">
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/WINE.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/PUMA.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/NIKE.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/logo_185x140(1).png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DROGARIAVENANCIO.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DROGARIASÃOPAULO.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DrogaRaia.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/COBASI.png" class="w-full h-auto" /></li>
-                  <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/CENTAURO.png" class="w-full h-auto" /></li>
-                </ul>
-              </div>
-          
-              <button class="carousel-button left absolute top-1/2 left-2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full text-sm z-10">&#10094;</button>
-              <button class="carousel-button right absolute top-1/2 right-2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full text-sm z-10">&#10095;</button>
-            </div>
-            <hr class="w-[50%] h-[3px] bg-[#FF8D00] rounded-[10px] border-0">
-          </section>
-          <section class="px-[80px] pb-[30px] w-full flex items-center justify-center flex-col gap-[30px]">
-            <div class="flex items-center justify-center flex-col gap-[10px]">
-            <h1 class="font-Montserrat text-[32px] font-[700] text-center">Perguntas Frequentes</h1>
-            <h2 class="font-Poppins text-[18px] font-[700] text-center">Qual sua dúvida?</h2>
-            <p class="font-Poppins text-[18px] font-[400] text-center">Confira nosso FAQ ou entre em contato conosoco via wehatsapp ou e-mail</p>
-        </div>
-        <!--FAQ-->
-        <div id="faq-container" class="w-full max-w-[800px] flex flex-col gap-4 mt-6">
-            <!--ITEM 01 -->
-            <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
-                <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
-                  <h3 class="font-bold">Mtrek é para mim?
-                </h3>
-                  <span class="icon transition-transform">&#9660;</span>
-                </div>
-                <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
-                    Sim! A Mtrek é para qualquer pessoa que quer economizar em suas compras do dia a dia de forma simples, segura e sem burocracia. Se você já compra online, pode aproveitar ainda mais benefícios com a nossa plataforma, sem precisar mudar seus hábitos.
-                </div>
-              </div>
-              <!--ITEM 02 -->
-              <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
-                <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
-                  <h3 class="font-bold">Quanto custa para fazer parte?
-                </h3>
-                  <span class="icon transition-transform">&#9660;</span>
-                </div>
-                <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
-                    Nada! A Mtrek é 100% gratuita. Você não paga nada para se cadastrar, usar a plataforma ou aproveitar os benefícios. Nossa missão é ajudar você a economizar e ainda ganhar com o que já consome, sem custo algum.
-                </div>
-              </div>
-              <!--ITEM 03 -->
-              <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
-                <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
-                  <h3 class="font-bold">Como funciona a economia na Mtrek?
-                </h3>
-                  <span class="icon transition-transform">&#9660;</span>
-                </div>
-                <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
-                    Você compra nos sites parceiros da Mtrek (como Kabum, Droga Raia, Nike, Mercado Livre, entre outros) e recebe parte do valor de volta em forma de cashback. É simples: comprou, ganhou. E quanto mais você movimenta, mais benefícios tem acesso dentro da plataforma.
 
-                </div>
+<body>
+  <main>
+    <!-- Primeira seção -->
+    <section class="section-padding py-5 bg-[url('./images/frame1.png')] bg-cover bg-center w-full flex flex-col gap-8">
+      <div class="flex flex-col gap-3 md:items-start lg:items-center md:text-left lg:text-center">
+        <img src="./images/logoBlack1.png" alt="Logo Mtrek" class="h-[78px] w-[258px]">
+        <h1 class="font-Montserrat text-3xl font-bold">Como Construir Renda Extra Pela Internet</h1>
+        <p class="font-Poppins text-lg">
+          A Mtrek é gratuita: você não paga nada para participar. Ganhe dinheiro comprando o que já consome — direto nas lojas online parceiras. Para manter sua conta ativa e liberar todos os benefícios, basta consumir no mínimo R$ 50,00 em compras a cada período de 30 dias dentro da plataforma.
+        </p>
+      </div>
+
+      <div class="flex flex-col md:flex-col lg:flex-row gap-6 w-full">
+        <div class="border-4 border-[#FF8D00] w-full lg:w-1/2 h-[300px]">
+          <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="border-4 border-[#FF8D00] w-full lg:w-1/2 h-[300px]">
+          <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="flex md:justify-start lg:justify-center">
+        <button class="bg-[#FF8D00] text-white px-6 py-3 rounded-lg font-Montserrat font-bold text-lg">
+          Cadastre-se Agora
+        </button>
+      </div>
+    </section>
+
+    <!-- Segunda seção -->
+    <section class="section-padding py-5 bg-[#FCF7EC] flex flex-col items-center gap-8">
+      <div class="flex flex-col w-full md:w-2/3 text-left md:text-left lg:text-center gap-4">
+        <h1 class="font-Montserrat text-3xl font-bold">O poder da comunidade!</h1>
+        <p class="font-Poppins text-lg">
+          Na Mtrek, cada pessoa é uma peça essencial na construção de algo maior. Juntos, transformamos consumo em renda e criamos uma rede onde todos ganham.
+        </p>
+        <img src="./images/chatgpt1.png" alt="Chat GPT" class="h-[300px] w-[300px] self-center">
+        <button class="bg-[#FF8D00] text-white px-6 py-3 rounded-lg font-Montserrat font-bold text-lg self-start md:self-start lg:self-center">
+          Cadastre-se Agora
+        </button>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="section-padding py-5 flex flex-col items-center gap-8">
+      <h1 class="font-Montserrat text-3xl font-bold text-center">Depoimentos!</h1>
+      <div class="border-4 border-[#FF8D00] w-full md:w-2/3 h-[400px]">
+        <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <button class="bg-[#FF8D00] text-white px-6 py-3 rounded-lg font-Montserrat font-bold text-lg">
+        Cadastre-se Agora
+      </button>
+    </section>
+
+    <!-- Lojas Parceiras -->
+    <section class="section-padding py-5 flex flex-col items-center gap-8">
+      <h1 class="font-Montserrat text-3xl font-bold text-center">Lojas Parceiras</h1>
+      <hr class="w-1/2 h-[3px] bg-[#FF8D00] rounded-lg border-0">
+      <div class="carousel relative w-full max-w-5xl overflow-hidden">
+        <div class="carousel-track-container overflow-hidden">
+          <ul class="carousel-track flex transition-transform duration-500 ease-in-out">
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/WINE.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/PUMA.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/NIKE.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/logo_185x140(1).png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DROGARIAVENANCIO.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DROGARIASÃOPAULO.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/DrogaRaia.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/COBASI.png" class="w-full h-auto" /></li>
+            <li class="carousel-slide w-1/3 p-2"><img src="./images/parcerias/CENTAURO.png" class="w-full h-auto" /></li>
+          </ul>
+        </div>
+    
+        <button class="carousel-button left absolute top-1/2 left-2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full text-sm z-10">&#10094;</button>
+        <button class="carousel-button right absolute top-1/2 right-2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full text-sm z-10">&#10095;</button>
+      </div>
+      <hr class="w-1/2 h-[3px] bg-[#FF8D00] rounded-lg border-0">
+    </section>
+
+    <!-- Perguntas Frequentes + Contato -->
+    <section class="section-padding pb-8 flex flex-col items-center gap-8">
+      <div class="text-center flex flex-col gap-2">
+        <h1 class="font-Montserrat text-3xl font-bold">Perguntas Frequentes</h1>
+        <h2 class="font-Poppins text-lg font-bold">Qual sua dúvida?</h2>
+        <p class="font-Poppins text-lg">Confira nosso FAQ ou entre em contato conosco via WhatsApp ou e-mail</p>
+      </div>
+      <!-- Aqui entra seu FAQ que você já mandou -->
+      <div class="w-full max-w-[800px] flex flex-col gap-4 mt-6">
+        <div id="faq-container" class="w-full max-w-[800px] flex flex-col gap-4 mt-6">
+          <!--ITEM 01 -->
+          <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
+              <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
+                <h3 class="font-bold">Mtrek é para mim?
+              </h3>
+                <span class="icon transition-transform">&#9660;</span>
               </div>
-              <!--ITEM 04 -->
-              <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
-                <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
-                  <h3 class="font-bold">O que é cashback e como ele funciona na Mtrek?
-                </h3>
-                  <span class="icon transition-transform">&#9660;</span>
-                </div>
-                <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
-                    Cashback é quando uma parte do valor da sua compra retorna para você. Na Mtrek, ao realizar compras através dos nossos links de lojas parceiras, você recebe uma porcentagem do valor de volta em sua conta. Esse valor pode ser acumulado e usado como quiser — é como se você ganhasse para comprar o que já compraria de qualquer forma.
-                </div>
-              </div>        
-          </div>
-          <div class="flex flex-col gap-[10px] font-Montserrat text-[#000000] justify-center items-center">
-            <div class="flex items-center justify-center flex-col">
-                <h1 class="font-Montserrat text-[28px] font-[700] text-center">Contate o Atendimento</h1>
-                <h2 class="font-Poppins text-[18px] font-[700] text-center">Por onde você quer ser atendido?</h2>
+              <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
+                  Sim! A Mtrek é para qualquer pessoa que quer economizar em suas compras do dia a dia de forma simples, segura e sem burocracia. Se você já compra online, pode aproveitar ainda mais benefícios com a nossa plataforma, sem precisar mudar seus hábitos.
+              </div>
             </div>
-            <div class="flex items-center justify-center gap-[25px]">
-                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5519989326055"><button class="cursor-pointer bg-[#FF8D00] text-[#fff] px-[25px] py-[7px] rounded-[10px] font-Montserrat font-[700] text-[18px]">
-                    Atendimento via Whatsapp
-                </button></a>
-                <a href="mailto:1@mtrek.com.br"><button class="cursor-pointer bg-[#FF8D00] text-[#fff] px-[25px] py-[7px] rounded-[10px] font-Montserrat font-[700] text-[18px]">
-                    Atendimento via E-mail
-                </button></a>
+            <!--ITEM 02 -->
+            <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
+              <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
+                <h3 class="font-bold">Quanto custa para fazer parte?
+              </h3>
+                <span class="icon transition-transform">&#9660;</span>
+              </div>
+              <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
+                  Nada! A Mtrek é 100% gratuita. Você não paga nada para se cadastrar, usar a plataforma ou aproveitar os benefícios. Nossa missão é ajudar você a economizar e ainda ganhar com o que já consome, sem custo algum.
+              </div>
             </div>
-          </div>       
-          </section>
-          <section>
-            <footer class="px-[80px] py-[20px] w-full flex items-center justify-around flex-row gap-[30px] bg-[#FF8D00] text-[#FFFFFF]">
-              <div class="flex items-center justify-center w-[25%]">
-                <img src="./images/MTREKBRANCO.png" alt="" srcset="" class="h-[78px] w-[258px]">
+            <!--ITEM 03 -->
+            <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
+              <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
+                <h3 class="font-bold">Como funciona a economia na Mtrek?
+              </h3>
+                <span class="icon transition-transform">&#9660;</span>
               </div>
-              <div class="flex items-center content-center flex-col text-center gap-[10px] w-[50%]">
-                <p class="font-Poppins text-[12px] font-[400] text-center">Copyright 2024 Ⓒ Mtrek - Todos os direitos reservados</p>
-                <h2 class="font-Poppins text-[16px] font-[400] text-center">Mtrek especializada em pagar Cashb ack 3x maior em todos os produtos e serviços que você e sua família consomem.</h2>
+              <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
+                  Você compra nos sites parceiros da Mtrek (como Kabum, Droga Raia, Nike, Mercado Livre, entre outros) e recebe parte do valor de volta em forma de cashback. É simples: comprou, ganhou. E quanto mais você movimenta, mais benefícios tem acesso dentro da plataforma.
+
               </div>
-              <div class="flex items-center justify-center gap-[10px] flex-col w-[25%]">
-                <div class="flex items-center justify-center gap-[10px]">
-                  <img src="./images/icons/Youtube.png" alt="" srcset="">
-                  <img src="./images/icons/Instagram.png" alt="" srcset="">
-                  <img src="./images/icons/Facebook.png" alt="" srcset="">
-                </div>
-                <div class="flex items-center justify-center gap-[10px] text-center">
-                  <p class="font-Poppins text-[14px] font-[400] text-center">Estabelecida como pessoa Jurídica através do marco regulatório das Startups.</p>
-                </div>
+            </div>
+            <!--ITEM 04 -->
+            <div class="faq-item border-2 border-[#FF8D00] rounded-[30px] font-Montserrat overflow-hidden ">
+              <div class="faq-toggle cursor-pointer flex justify-between items-center p-4 bg-white text-[#333] transition-all duration-300">
+                <h3 class="font-bold">O que é cashback e como ele funciona na Mtrek?
+              </h3>
+                <span class="icon transition-transform">&#9660;</span>
               </div>
-            </footer>
-          </section>
-        </main>
-        <script src="./carousel.js"></script>
-        <script src="./faq.js"></script>
+              <div class="faq-content px-4 py-5 font-Montserrat text-sm hidden text-[#000000]">
+                  Cashback é quando uma parte do valor da sua compra retorna para você. Na Mtrek, ao realizar compras através dos nossos links de lojas parceiras, você recebe uma porcentagem do valor de volta em sua conta. Esse valor pode ser acumulado e usado como quiser — é como se você ganhasse para comprar o que já compraria de qualquer forma.
+              </div>
+            </div>        
+        </div>
+      </div>
+      <!-- Contato -->
+      <div class="flex flex-col gap-4 items-center">
+        <div class="text-center">
+          <h1 class="font-Montserrat text-xl font-bold">Contate o Atendimento</h1>
+          <h2 class="font-Poppins text-lg font-bold">Por onde você quer ser atendido?</h2>
+        </div>
+        <div class="flex flex-col md:flex-row gap-4">
+          <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5519989326055">
+            <button class="bg-[#FF8D00] text-white px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
+              Atendimento via WhatsApp
+            </button>
+          </a>
+          <a href="mailto:1@mtrek.com.br">
+            <button class="bg-[#FF8D00] text-white px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
+              Atendimento via E-mail
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-padding py-5 bg-[#FF8D00] text-white flex flex-col md:flex-row justify-around items-center gap-8">
+      <div class="flex justify-center w-full md:w-1/4">
+        <img src="./images/MTREKBRANCO.png" alt="Logo Footer" class="h-[78px] w-[258px]">
+      </div>
+      <div class="text-center flex flex-col gap-2 w-full md:w-1/2">
+        <p class="font-Poppins text-xs">Copyright 2024 Ⓒ Mtrek - Todos os direitos reservados</p>
+        <h2 class="font-Poppins text-base">Mtrek especializada em pagar cashback 3x maior em todos os produtos e serviços que você e sua família consomem.</h2>
+      </div>
+      <div class="flex flex-col items-center gap-2 w-full md:w-1/4">
+        <div class="flex gap-2">
+          <a href="https://www.youtube.com/@mtrek1424"><img src="./images/icons/Youtube.png" alt="Youtube"></a>
+          <a href="https://www.instagram.com/mtrek_oficial/"><img src="./images/icons/Instagram.png" alt="Instagram"></a>
+          <img src="./images/icons/Facebook.png" alt="Facebook">
+        </div>
+        <p class="text-center text-sm">Estabelecida como pessoa Jurídica através do marco regulatório das Startups.</p>
+      </div>
+    </footer>
+  </main>
+  <script src="./carousel.js"></script>
+  <script src="./faq.js"></script>
 </body>
 </html>
