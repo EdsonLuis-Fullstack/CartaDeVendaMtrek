@@ -4,7 +4,7 @@ const nextButton = document.querySelector('.carousel-button.right');
 const prevButton = document.querySelector('.carousel-button.left');
 
 let currentIndex = 0;
-const visibleSlides = 3; // Quantas imagens aparecem ao mesmo tempo
+const visibleSlides = 3; // Mantendo 3 imagens visíveis por vez
 
 function updateCarousel() {
   const slideWidth = slides[0].getBoundingClientRect().width;
@@ -28,13 +28,11 @@ prevButton.addEventListener('click', () => {
   updateCarousel();
 });
 
-// Set initial styles
+// Configuração inicial
 window.addEventListener('load', () => {
-  const slideWidth = slides[0].getBoundingClientRect().width;
-  track.style.display = 'flex';
-  track.style.transition = 'transform 0.5s ease-in-out';
   slides.forEach(slide => {
-    slide.style.flex = '0 0 auto';
-    slide.style.width = `${slideWidth}px`;
+    slide.style.flex = '0 0 33.333%';
+    slide.style.width = `${100 / 3}%`;
   });
+  updateCarousel();
 });
