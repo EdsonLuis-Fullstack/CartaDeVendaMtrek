@@ -16,8 +16,8 @@
     }
     @media (min-width: 768px) and (max-width: 1023px) {
       .section-padding {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 100px;
+        padding-right: 100px;
       }
     }
     @media (max-width: 767px) {
@@ -32,18 +32,18 @@
 <body>
   <main>
     <!-- Primeira seção -->
-    <section class="section-padding py-5 bg-[url('./images/frame1.png')] bg-cover bg-center lg:justify-center lg:items-center w-full flex flex-col min-h-[100vh] gap-8">
-      <div class="flex flex-col gap-3 md:items-start  lg:w-[65%] lg:items-center md:text-left lg:text-center">
+    <section class="section-padding py-5 bg-[url('./images/frame1.png')] bg-cover bg-center lg:justify-center lg:items-center justify-center items-center w-full flex flex-col min-h-[100vh] gap-8">
+      <div class="flex flex-col gap-3 md:items-start  lg:w-full lg:items-center md:text-left lg:text-center">
         <img src="./images/logoBlack1.png" alt="Logo Mtrek" class="h-[58px] w-[170px]">
         <h1 class="font-Montserrat text-3xl lg:text-[22px]  font-bold">Como Construir Renda Extra Pela Internet</h1>
-        <p class="font-Poppins text-lg lg:text-[12px] lg:leading-[20px]">
-          A Mtrek é gratuita: você não paga nada para participar. Ganhe dinheiro comprando o que já consome — direto nas lojas online parceiras. Para manter sua conta ativa e liberar todos os benefícios, basta consumir no mínimo R$ 50,00 em compras a cada período de 30 dias dentro da plataforma.
+        <p class="font-Poppins text-lg lg:text-[14px] lg:leading-[20px]">
+          A Mtrek é gratuita: você não paga nada para participar.<br class="hidden lg:block"> Ganhe dinheiro comprando o que já consome — direto nas lojas online parceiras.<br class="hidden lg:block"> Para manter sua conta ativa e liberar todos os benefícios, basta consumir no mínimo <br class="hidden lg:block">R$ 50,00 em compras a cada período de 30 dias dentro da plataforma.
         </p>
       </div>
 
       <div class="flex flex-col md:flex-col lg:flex-row gap-6 w-full lg:justify-center">
   
-        <div class="border-4 border-[#FF8D00] w-full lg:w-[45%] aspect-video">
+        <div class="border-4 border-[#FF8D00] w-full lg:w-full aspect-video">
           <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
         </div>
       <div class="lg:hidden w-full">
@@ -51,8 +51,8 @@
           <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-        <div class="hidden lg:block relative w-full lg:w-[45%]">
-          <div class="border-0 md:border-[5px] border-black p-4 pt-7 relative lg:flex lg:justify-center lg:items-center h-[300px]">
+        <div class="hidden lg:block relative w-full lg:w-full">
+          <div class="border-0 md:border-[5px] border-black p-4 pt-7 relative lg:flex lg:justify-center lg:items-center ">
             <div class="hidden md:block absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white px-2 lg:px-4">
               <p class="text-black font-bold font-Montserrat text-[14px] lg:text-[20px] uppercase">A OPORTUNIDADE</p>
             </div>
@@ -79,7 +79,7 @@
     <section class="section-padding py-5 bg-[#FCF7EC] flex flex-col items-center gap-8 min-h-[100vh] justify-center">
       <div class="flex flex-col w-full md:w-2/3 text-left md:text-left lg:text-center lg:items-center gap-6">
         <h1 class="font-Montserrat text-3xl font-bold">O poder da comunidade!</h1>
-        <p class="font-Poppins text-lg w-[60%]">
+        <p class="font-Poppins text-lg lg:w-[60%]">
           Na Mtrek, cada pessoa é uma peça essencial na construção de algo maior. Juntos, transformamos consumo em renda e criamos uma rede onde todos ganham.
         </p>
         <div class="relative h-[350px] w-[350px] self-center">
@@ -95,7 +95,7 @@
     </section>
 
     <!-- Depoimentos -->
-    <section class="section-padding py-5 flex flex-col justify-center items-center gap-8 min-h-[100vh]">
+    <section class="section-padding py-5 flex flex-col justify-center items-center gap-8 lg:min-h-[100vh]">
       <h1 class="font-Montserrat text-3xl font-bold text-center">Depoimentos!</h1>
       <div class="border-4 border-[#FF8D00] w-full lg:w-[45%] aspect-video">
         <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/C-9PbZw8CEo?controls=0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
@@ -165,7 +165,7 @@
     </section>
 
     <!-- Perguntas Frequentes + Contato -->
-    <section class="section-padding pb-8 flex flex-col items-center gap-8 min-h-[100vh]">
+    <section class="section-padding pb-5 flex flex-col items-center gap-8 min-h-[100vh]">
       <div class="text-center flex flex-col gap-2">
         <h1 class="font-Montserrat text-3xl font-bold">Perguntas Frequentes</h1>
         <h2 class="font-Poppins text-lg font-bold">Qual sua dúvida?</h2>
@@ -229,12 +229,12 @@
         </div>
         <div class="flex flex-col md:flex-row gap-4">
           <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5519989326055">
-            <button class="bg-[#FF8D00] text-white px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
+            <button class="bg-[#FF8D00] text-white min-w-[300px] px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
               Atendimento via WhatsApp
             </button>
           </a>
           <a href="mailto:mtrek.cashback@gmail.com">
-            <button class="bg-[#FF8D00] text-white px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
+            <button class="bg-[#FF8D00] text-white min-w-[300px] px-6 py-2 rounded-lg font-Montserrat font-bold text-lg">
               Atendimento via E-mail
             </button>
           </a>
